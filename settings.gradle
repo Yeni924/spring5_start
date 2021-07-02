@@ -1,2 +1,3 @@
 rootProject.name = 'SpringStart'
+include 'chap8'
 
