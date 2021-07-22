@@ -8,7 +8,7 @@ import java.sql.Statement;
 import javax.sql.DataSource;
 
 public class DbQuery {
-	private DataSource dataSource;
+	private final DataSource dataSource;
 
 	public DbQuery(DataSource dataSource) {
 		this.dataSource = dataSource;

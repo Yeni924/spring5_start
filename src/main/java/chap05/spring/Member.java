@@ -5,10 +5,10 @@ import java.time.LocalDateTime;
 //회원 데이터 표현
 public class Member {
     private Long id;
-    private String email;
+    private final String email;
     private String password;
-    private String name;
-    private LocalDateTime registerDateTime;
+    private final String name;
+    private final LocalDateTime registerDateTime;
 
     public Member(String email, String password, String name, LocalDateTime regDateTime){
         this.email=email;

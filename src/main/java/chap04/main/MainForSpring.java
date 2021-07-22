@@ -79,7 +79,7 @@ public class MainForSpring {
         }
     }
 
-    private  static Assembler assembler = new Assembler();
+    private  static final Assembler assembler = new Assembler();
 
     private static void processNewCommand(String[] arg) {
 

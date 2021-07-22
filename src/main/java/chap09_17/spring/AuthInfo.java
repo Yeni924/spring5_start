@@ -2,9 +2,9 @@ package chap09_17.spring;
 
 public class AuthInfo {
 
-	private Long id;
-	private String email;
-	private String name;
+	private final Long id;
+	private final String email;
+	private final String name;
 
 	public AuthInfo(Long id, String email, String name) {
 		this.id = id;

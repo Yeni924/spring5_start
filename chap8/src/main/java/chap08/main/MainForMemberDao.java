@@ -48,7 +48,7 @@ public class MainForMemberDao {
 		System.out.println("암호 변경: " + oldPw + " > " + newPw);
 	}
 
-	private static DateTimeFormatter formatter = 
+	private static final DateTimeFormatter formatter =
 			DateTimeFormatter.ofPattern("MMddHHmmss");
 
 	private static void insertMember() {

@@ -2,7 +2,7 @@ package chap07.test;
 
 public class ExeTimeCalculator implements Calculator {
 
-	private Calculator delegate;
+	private final Calculator delegate;
 
 	public ExeTimeCalculator(Calculator delegate) {
         this.delegate = delegate;

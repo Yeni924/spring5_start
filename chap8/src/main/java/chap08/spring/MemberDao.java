@@ -17,7 +17,7 @@ import org.springframework.jdbc.support.KeyHolder;
 
 public class MemberDao {
 
-	private JdbcTemplate jdbcTemplate;
+	private final JdbcTemplate jdbcTemplate;
 
 	public MemberDao(DataSource dataSource) {
 		this.jdbcTemplate = new JdbcTemplate(dataSource);

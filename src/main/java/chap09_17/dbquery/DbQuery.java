@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class DbQuery {
-	private DataSource dataSource;
+	private final DataSource dataSource;
 
 	public DbQuery(DataSource dataSource) {
 		this.dataSource = dataSource;

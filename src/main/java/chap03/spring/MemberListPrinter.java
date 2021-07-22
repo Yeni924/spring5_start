@@ -3,8 +3,8 @@ package chap03.spring;
 import java.util.Collection;
 
 public class MemberListPrinter {
-    private MemberDao memberDao;
-    private MemberPrinter printer;
+    private final MemberDao memberDao;
+    private final MemberPrinter printer;
 
     public MemberListPrinter(MemberDao memberDao, MemberPrinter printer){
         this.memberDao = memberDao;

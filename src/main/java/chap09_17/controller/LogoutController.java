@@ -11,7 +11,7 @@ public class LogoutController {
 	@RequestMapping("/logout")
 	public String logout(HttpSession session) {
 		session.invalidate();
-		return "/WEB-INF/main.jsp";
+		return "redirect:/main";
 	}
 
 }
