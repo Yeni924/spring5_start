@@ -7,9 +7,9 @@ import chap03.spring.MemberReegisterService;
 //실체 객체를 생성하는 코드,
 public class Assembler {
 
-    private MemberDao memberDao;
-    private MemberReegisterService regSvc;
-    private ChangePasswordService pwdSvc;
+    private final MemberDao memberDao;
+    private final MemberReegisterService regSvc;
+    private final ChangePasswordService pwdSvc;
 
     public Assembler(){
         memberDao = new MemberDao();

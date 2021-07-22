@@ -3,7 +3,7 @@ package chap09_17.spring;
 import java.time.LocalDateTime;
 
 public class MemberRegisterService {
-	private MemberDao memberDao;
+	private final MemberDao memberDao;
 
 	public MemberRegisterService(MemberDao memberDao) {
 		this.memberDao = memberDao;

@@ -3,7 +3,7 @@ package chap03.spring;
 import java.time.LocalDateTime;
 
 public class MemberReegisterService {
-    private MemberDao memberDao;
+    private final MemberDao memberDao;
 
     //생성자를 통해 의존 객체를 주입 받음, 주입 받은 객체를 필드에 할당
     public MemberReegisterService(MemberDao memberDao){

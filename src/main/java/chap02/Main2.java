@@ -4,7 +4,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 //싱글톤 객체 - 단일 객체
 public class Main2 {
-    public static void main(String args[]){
+    public static void main(String[] args){
 
         AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(AppContext.class);
         Greeter g1 = ctx.getBean("greeter",Greeter.class);
