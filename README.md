@@ -4,8 +4,6 @@
 
 스터디하면서 개인적으로 정리한 내용들!
 
-===> 공부 기록들 
-
 https://kwonyeeun.tistory.com/category/Study%20Note/Spring
 
 
